@@ -9,12 +9,16 @@
     </head>
     <body>
         <div id="container">
-            {navbar}
-            {content}
-            <p class="footer">Page rendered in <strong>0.0313</strong> seconds. 
-                {ci_version}</p>
+            <div id="container">
+                {navbar}
+                <div>
+                   {content}
+                </div>
+            </div> 
+            
         </div>
         {caboose_scripts}
         {caboose_trailings}
     </body>
 </html>
+
